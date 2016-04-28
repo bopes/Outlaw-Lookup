@@ -1,12 +1,12 @@
 helpers do
 
   def break_lyrics_into_lines(song)
-    song.gsub!(/\r\n/, "</p><p class='lyrics'>")
-    song.gsub!(/\n/, "</p><p class='lyrics'>")
+    song['snippet'].gsub!(/\r\n/, "</p><p class='lyrics'>")
+    song['snippet'].gsub!(/\n/, "</p><p class='lyrics'>")
   end
 
   def standardize_all_songs_lyrics(song_array)
-    song_array.each { |song| break_lyrics_into_lines(song['snippet']) }
+    song_array.each { |song| break_lyrics_into_lines(song) }
   end
 
   def remove_duplicates(song_array)

@@ -14,4 +14,17 @@ $(document).ready(function() {
       })
   })
 
+  $('.jones_submit').submit(function(e){
+    e.preventDefault()
+    $.ajax({
+      url: '/jones',
+      type: 'post'
+    })
+      .done(function(response){
+        console.log(response)
+        $('.jones_quote_container').empty()
+        $('.jones_quote_container').append(response)
+      })
+  })
+
 });
