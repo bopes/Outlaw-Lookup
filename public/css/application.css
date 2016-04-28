@@ -6,3 +6,15 @@
   width: 70%;
   margin: auto;
 }
+
+.merle_image {
+  height: 400px;
+}
+
+.hes_thinking {
+  display: none;
+}
+
+.he_doesnt_remember {
+  display: none;
+}

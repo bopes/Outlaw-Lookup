@@ -27,4 +27,30 @@ $(document).ready(function() {
       })
   })
 
+  $('.haggard_submit').submit(function(e){
+    e.preventDefault()
+    $.ajax({
+        url: '/haggard',
+        type: 'post'
+      })
+        .done(function(image){
+          $('.haggard_wisdom_container').empty()
+          $('.haggard_wisdom_container').append(image)
+        })
+  })
+
+  $('.nelson_submit').submit(function(e){
+    e.preventDefault()
+    $('.he_doesnt_remember').hide()
+    $('.hes_thinking').show()
+    $('.nelson_submit').trigger('reset')
+    setTimeout(function(){
+      $('.hes_thinking').hide()
+      $('.he_doesnt_remember').show()
+      }, 3000)
+  })
+
 });
+
+
+
