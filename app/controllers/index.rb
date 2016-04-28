@@ -3,11 +3,11 @@ get '/' do
 end
 
 get '/cash' do
-  erb :cash, locals: { response: false }
+  erb :cash
 end
 
 post '/cash' do
-
+  @songs = []
   topic = params[:topic]
   topic_string= topic.split(" ").join("%20")
 
@@ -21,15 +21,9 @@ post '/cash' do
   parsed_songs = JSON.parse(shortened_response)
 
   @cash_songs = select_singer(parsed_songs, "Johnny Cash")
-
   remove_live_versions(@cash_songs)
-
-  @songs = []
-
   narrow_to_topic(@cash_songs, topic)
-
   remove_duplicates(@songs)
-
   standardize_all_songs_lyrics(@songs)
 
   erb :'_cash_response', layout: false
