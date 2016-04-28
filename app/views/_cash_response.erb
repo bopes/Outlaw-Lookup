@@ -1,7 +1,10 @@
 <div class='cash_response'>
-  <% if @topic %>
-    <h2>Yes, he did.</h2>
+  <% if @songs.length > 0 %>
+    <h1>Yes, he did.</h1>
+    <% @songs.each do |song|%>
+      <%= erb :_cash_song, layout: false, locals: { song: song } %>
+    <% end %>
   <% else %>
-    <h2>No, he never did.</h2>
+    <h1>No, he didn't.</h1>
   <% end %>
 </div>
