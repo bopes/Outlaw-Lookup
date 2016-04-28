@@ -1,4 +1,5 @@
 get '/cash' do
+  @page = 'cash'
   erb :cash
 end
 

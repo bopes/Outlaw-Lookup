@@ -1,4 +1,5 @@
 get '/jennings' do
+  @page = 'jennings'
   erb :jennings
 end
 

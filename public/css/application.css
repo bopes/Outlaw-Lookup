@@ -18,3 +18,51 @@
 .he_doesnt_remember {
   display: none;
 }
+
+.index {
+  background-image: url('http://assets.rollingstone.com/assets/2016/article/the-highwaymen-announce-live-box-set-premiere-documentary-trailer-20160329/234121/large_rect/1459258755/1401x788-GettyImages-135294263.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cash {
+  background-image: url('http://lancasterrootsandblues.com/wp-content/uploads/2016/02/938044-johnny-cash.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nelson {
+  background-image: url('https://i.ytimg.com/vi/Cmul7jUyWRg/maxresdefault.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.haggard {
+  background-image: url('http://abcnews.go.com/images/Lifestyle/gty_merle_haggard_obit_02_jc_160406.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  /*background-position: center;*/
+  background-attachment: fixed;
+}
+
+.jennings {
+  background-image: url('http://assets.rollingstone.com/assets/2014/gallery/picture-perfect-behind-the-lens-of-iconic-country-music-photos-20140716/waylon-jennings-in-new-york-1973-0771678/132252/_original/1035x1573-20140508-rubenstein-waylon-jennings-x1800-1399585428.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  /*background-position: center;*/
+  background-attachment: fixed;
+}
+
+.jones {
+  background-image: url('https://i.ytimg.com/vi/ydKs9zDGb8Y/maxresdefault.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  /*background-position: center;*/
+  background-attachment: fixed;
+}

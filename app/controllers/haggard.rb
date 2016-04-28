@@ -1,4 +1,5 @@
 get '/haggard' do
+  @page = 'haggard'
   erb :haggard
 end
 
