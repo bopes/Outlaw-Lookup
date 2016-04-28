@@ -50,6 +50,20 @@ $(document).ready(function() {
       }, 3000)
   })
 
+  $('.jennings_submit').submit(function(e){
+    e.preventDefault()
+    $.ajax({
+      url: '/jennings',
+      type: 'post',
+      data: $(this).serialize()
+    })
+      .done(function(response){
+        $('.jennings_submit').trigger('reset')
+        $('.jennings_response').empty()
+        $('.jennings_response').append(response)
+      })
+  })
+
 });
 
 
