@@ -32,4 +32,21 @@ helpers do
     end
   end
 
+  def remaining_topics(lyrics)
+    topics = ["momma","trains","trucks", "prison", "gettin' drunk"]
+    topics.delete_if { |topic| lyrics.include?(topic) }
+  end
+
+  def dave_responds_to(lyrics)
+    p lyrics
+    remaining_topics = remaining_topics(lyrics)
+    if lyrics == "Well I was drunk the day my mom got out of prison\r\nAnd I went to pick her up in the rain\r\nBut before I could get to the station in the pick-up truck\r\nShe got runned over by a damned old train"
+      "That's the perfect Country & Western song. I feel obliged to include it on my next album."
+    elsif remaining_topics.length == 0
+      "Not bad. If you record it, I bet it will chart well."
+    else
+      "You did not write the perfect song. You didn't anything at all about #{remaining_topics.join(", or ")}."
+    end
+  end
+
 end
