@@ -1,5 +1,6 @@
 get '/cash' do
   @page = 'cash'
+  @page_title = "Did Johnny Write About It?"
   erb :cash
 end
 

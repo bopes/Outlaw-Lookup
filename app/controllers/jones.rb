@@ -1,5 +1,6 @@
 get '/jones' do
   @page = 'jones'
+  @page_title = "Get Inspired by George"
   erb :jones
 end
 

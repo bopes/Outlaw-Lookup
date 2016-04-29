@@ -1,5 +1,6 @@
 get '/coe' do
   @page = 'coe'
+  @page_title = "Help David Write It"
   erb :coe
 end
 
