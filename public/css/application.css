@@ -117,3 +117,11 @@ a:visited {
   /*background-position: center;*/
   background-attachment: fixed;
 }
+
+.coe {
+  background-image: url('https://lintvwane.files.wordpress.com/2015/09/ap_54875815753.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  /*background-position: center;*/
+  background-attachment: fixed;
+}

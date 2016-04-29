@@ -66,6 +66,20 @@ $(document).ready(function() {
       })
   })
 
+  $('.coe_submit').submit(function(e){
+    e.preventDefault()
+    $.ajax({
+      url: '/coe',
+      type: 'post',
+      data: $(this).serialize()
+    })
+      .done(function(response){
+        $('.coe_submit').trigger('reset')
+        $('.coe_response').empty()
+        $('.coe_response').append(response)
+      })
+  })
+
 });
 
 
