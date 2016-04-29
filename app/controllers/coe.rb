@@ -10,3 +10,7 @@ post '/coe' do
   @lyrics.gsub!(/\n/, "</p><p class='lyrics'>")
   erb :'_coe_response', layout: false
 end
+
+get '/callme' do
+  erb :callme
+end

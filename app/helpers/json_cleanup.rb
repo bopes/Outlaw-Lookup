@@ -45,7 +45,7 @@ helpers do
     elsif remaining_topics.length == 0
       "Not bad. If you record it, I bet it will chart well."
     else
-      "You did not write the perfect song. You didn't anything at all about #{remaining_topics.join(", or ")}."
+      "You did not write the perfect song. You didn't say anything at all about #{remaining_topics.join(", or ")}."
     end
   end
 
