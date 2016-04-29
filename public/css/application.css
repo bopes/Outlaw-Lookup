@@ -43,6 +43,11 @@ a:visited {
   text-decoration: none;
 }
 
+.cash_retry_text {
+  margin-top: 75px;
+  display: none;
+}
+
 .merle_image {
   height: 400px;
   max-width: 100%;

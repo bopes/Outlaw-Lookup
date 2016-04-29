@@ -11,6 +11,8 @@ $(document).ready(function() {
         $('.cash_song_list').empty()
         $('.cash_song_list').append(response)
         $('.cash_submit').trigger('reset')
+        $('.cash_initial_text').hide()
+        $('.cash_retry_text').show()
       })
   })
 
@@ -43,10 +45,10 @@ $(document).ready(function() {
     e.preventDefault()
     $('.he_doesnt_remember').hide()
     $('.hes_thinking').show()
-    $('.nelson_submit').trigger('reset')
     setTimeout(function(){
       $('.hes_thinking').hide()
       $('.he_doesnt_remember').show()
+      $('.nelson_submit').trigger('reset')
       }, 3000)
   })
 
