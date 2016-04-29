@@ -1,5 +1,6 @@
 get '/haggard' do
   @page = 'haggard'
+  @page_title = "Merle's Daily Wisdom"
   erb :haggard
 end
 

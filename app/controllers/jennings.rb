@@ -1,5 +1,6 @@
 get '/jennings' do
   @page = 'jennings'
+  @page_title = "Waylon's Career Advice"
   erb :jennings
 end
 
