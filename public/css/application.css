@@ -5,23 +5,48 @@ body {
 .container {
   width: 70%;
   margin: 50px auto;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.75);
   padding: 20px;
   border-radius: 20px;
   text-align: center;
 }
 
-header a h3 {
+/*footer a h3 {
   margin: 0;
-}
+}*/
 
 h1 {
+  color: #B50A24;
   text-align: center;
   font-size: 3em;
+  width: 100%;
+}
+
+h1 a {
+  padding: 0 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #B50A24;
+  text-decoration: none;
+  width: 100%;
+}
+
+h1 a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+  font-size: 2em;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 .merle_image {
   height: 400px;
+  max-width: 100%;
+  margin: 32px auto;
 }
 
 .hes_thinking {

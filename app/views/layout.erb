@@ -24,10 +24,12 @@
 <body class=<%= @page %>>
 <div id="content">
     <div class='container'>
-      <header>
-        <a href="/"><h3>Outlaw Lookup</h3></a>
-      </header>
       <%= yield %>
+      <% if @page != 'index' %>
+        <footer>
+          <a href="/"><h3>Return to Outlaw Lookup Home</h3></a>
+        </footer>
+      <% end %>
     </div>
 </div>
 </body>
