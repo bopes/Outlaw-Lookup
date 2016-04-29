@@ -39,3 +39,17 @@ urls = [
 ]
 
 urls.each {|url| Merleurl.create(url: url.to_s) }
+
+affirmations = [
+"Good call. Now go put on your T-I-E.",
+"That's quite a fine, no-account-boozer job.",
+"You'll be my honky tonk hero.",
+"Hank would've done it that way.",
+"You can do that in Luckenbach for sure.",
+"That'll keep you from going insane.",
+"A good-hearted woman will love you with that job.",
+"You'll be living long, yes you will.",
+"Bob Wills is giving you his crown.  He ain't the king no more."
+]
+
+affirmations.each {|affirmation| Waylonaffirmation.create(affirmation: affirmation) }

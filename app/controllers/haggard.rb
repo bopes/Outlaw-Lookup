@@ -8,3 +8,4 @@ post '/haggard' do
   p @image_url
   erb :_merle_img, layout: false
 end
+
