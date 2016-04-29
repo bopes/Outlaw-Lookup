@@ -1,10 +1,23 @@
-.haters {
-  width:100%;
+body {
+  font-family: Oswald;
 }
 
 .container {
   width: 70%;
-  margin: auto;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+header a h3 {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
 }
 
 .merle_image {
@@ -61,6 +74,14 @@
 
 .jones {
   background-image: url('https://i.ytimg.com/vi/ydKs9zDGb8Y/maxresdefault.jpg');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  /*background-position: center;*/
+  background-attachment: fixed;
+}
+
+.kris {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a0/Kristofferson_-_78.jpg');
   background-size:     cover;
   background-repeat:   no-repeat;
   /*background-position: center;*/
