@@ -1,0 +1,10 @@
+<div class='cash_response'>
+  <% if @songs.length > 0 %>
+    <h1>Yes, he did.</h1>
+    <% @songs.each do |song|%>
+      <%= erb :_cash_song, layout: false, locals: { song: song } %>
+    <% end %>
+  <% else %>
+    <h1>No, he didn't.</h1>
+  <% end %>
+</div>
