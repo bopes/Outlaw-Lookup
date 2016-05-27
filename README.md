@@ -1,5 +1,5 @@
 # Outlaw Hangout
-Spend some time goofing off with the legends of the 70s Outlaw Country movement.
+Spend some time goofing off with the legends of the 70s Outlaw Country movement. This app is built in Ruby on the Sinatra framework.
 
 ## Modules:
 
@@ -23,3 +23,11 @@ Willie has some great stories. Ask him if he remembers anything, and enjoy his a
 
 ### Spend Sunday Morning with Kris
 Chill out and listen to the song Kris Kristofferson convinced Johnny Cash to record by landing a helicopter on Johnny's lawn.
+
+## Homepage Screenshot:
+
+![homepage](./public/imgs/homepage.png)
+
+## Notes
+
+The Lyrics'N'Music API behind the George Jones and Johnny Cash has been deprecated, and those two modules are not longer functioning.
