@@ -26,7 +26,7 @@ Chill out and listen to the song Kris Kristofferson convinced Johnny Cash to rec
 
 ## Homepage Screenshot:
 
-![homepage](./public/imgs/homepage.png)
+![homepage](public/imgs/homepage.png)
 
 ## Notes
 
