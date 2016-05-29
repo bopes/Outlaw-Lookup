@@ -1,4 +1,4 @@
-# Outlaw Hangout
+# Outlaw Lookup
 Spend some time goofing off with the legends of the 70s Outlaw Country movement. This app is built in Ruby on the Sinatra framework.
 
 ### Modules:
